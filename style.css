@@ -20,11 +20,18 @@ body{
 
 /*------------------------------*/
 
+
+/*-------------------------------*/
+.header-web {
+    padding: 20px;
+    height: 200px;
+    backdrop-filter: blur;
+}
+
+/*------------------------------*/
+
 /*general css*/
 .header-container {
-    padding: 20px;
-    background-image: radial-gradient(rgba(206, 204, 195, 0.205),rgba(61, 61, 61, 0.603)), url(imagenes/bikiniFlores.png);
-    height: 670px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -44,12 +51,11 @@ body{
     background-color: transparent;
 }    
 
-.nav__ul {
+.nav-item{
     font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bolder;
     font-size: 20px;
-    display:flex ;
-    justify-content:center;
-    text-decoration: none;
    }
 .nav ul li{
     display: flex;
@@ -258,13 +264,6 @@ li img {
 
 
 /*products page*/
-
-.section-products {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-} 
-/*---------------------------*/
 
 /*CONTACT PAGE*/
 .banner-contact {
